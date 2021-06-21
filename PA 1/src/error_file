@@ -1,0 +1,9 @@
+The test null_in_string_unescaped_newline.cl.cool failed.
+    output:- #name "/root/cool-test/normal/null_in_string_unescaped_newline.cl.cool"
+?        -----------------------
+
++ #name "null_in_string_unescaped_newline.cl.cool"
+- #3 ERROR "Unterminated string constant"
++ #2 ERROR "String contains null character."
+  #3 OBJECTID a
+  #3 '+'
